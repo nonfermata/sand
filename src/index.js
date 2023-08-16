@@ -7,11 +7,8 @@ jsImage.className = 'js-image';
 jsImage.src = img1;
 main.append(jsImage);
 
-console.log(isPalindrome('потоп'))
-console.log(isPalindrome('поток'))
-console.log(isPalindrome('kararak'))
+console.log(isPalindrome('околомишимолоко'))
 console.log(isPalindrome('kabak'))
-
 
 function isPalindrome(str) {
   return str === str.split('').reverse().join('');
