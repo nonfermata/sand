@@ -10,6 +10,7 @@ main.append(jsImage);
 console.log(isPalindrome('потоп'))
 console.log(isPalindrome('поток'))
 console.log(isPalindrome('kararak'))
+console.log(isPalindrome('kabak'))
 
 
 function isPalindrome(str) {
