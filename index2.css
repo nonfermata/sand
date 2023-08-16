@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+#main {
+    margin: 30px auto;
+    width: 50%;
+    display: grid;
+    gap: 20px;
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr) ;
+}
+
+.item {
+    background-color: hsl(38, 80%, 80%);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: default;
+}
+.item_highlight {
+    background-color: hsl(38, 100%, 50%);
+}
