@@ -2,7 +2,7 @@ import '../index.css';
 import img1 from '../assets/img1.png';
 
 const main = document.querySelector('main');
-console.log('Dima');
+console.log('Zoya');
 const jsImage = document.createElement('img');
 jsImage.className = 'js-image';
 jsImage.src = img1;
