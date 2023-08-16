@@ -2,7 +2,8 @@ import '../index.css';
 import img1 from '../assets/img1.png';
 
 const main = document.querySelector('main');
-console.log('Dima');
+const rip = 25
+console.log(rip)
 const jsImage = document.createElement('img');
 jsImage.className = 'js-image';
 jsImage.src = img1;
