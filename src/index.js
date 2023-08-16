@@ -7,10 +7,7 @@ jsImage.className = 'js-image';
 jsImage.src = img1;
 main.append(jsImage);
 
-console.log(isPalindrome('потоп'))
-console.log(isPalindrome('поток'))
-console.log(isPalindrome('kararak'))
-console.log(isPalindrome('kabak'))
+console.log(isPalindrome('околомишимолоко'))
 
 
 function isPalindrome(str) {
