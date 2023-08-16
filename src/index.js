@@ -13,3 +13,5 @@ console.log(isPalindrome('kabak'))
 function isPalindrome(str) {
   return str === str.split('').reverse().join('');
 }
+
+console.log('Что-то пошло ТАК')
